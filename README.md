@@ -16,7 +16,7 @@ When I was writing "any-ticker", the file conversion from rle to Life 1.06 was n
 I have written a program to make and included it.
 
 ## Motivation
-To show **any** string or image as a **ticker** just like golly-ticker.
+To show **any** (full alphabetical characterset only in golly font size 11, numbers and symbols not included(yet)) string or image (just apple as of now) as a **ticker** just like golly-ticker.
 
 ## Install
 You can simply use any-ticker by this command below in a terminal.
@@ -28,6 +28,7 @@ I have implemented subcommand system.
 ### Any Ticker
 Use the command below to use any-ticker in very basic way.
 Note that you have to change "<foo>" into suitable values.
+Also note that you have to use "./life" instead of life on Mac.
 `life ticker -m "<message>" -s <font size> -f <font name>`
 If you want just a ticker message, the command below is the easiest way.
 `life ticker -m "<message>"`
